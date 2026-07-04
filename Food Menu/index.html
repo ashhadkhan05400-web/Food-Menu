@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Menu</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="food.css">
+</head>
+
+<body>
+
+    <div class="wrap">
+
+        <div class="eyebrow">Four Kitchens · One Table</div>
+        <h1 class="title">The <em>Menu</em></h1>
+        <p class="sub">A table set with dishes from four different countries. Pick a kitchen, or see everything at once.
+        </p>
+        <div class="rule"></div>
+
+
+        <!-- 
+        <input type="radio" name="filter" id="f-all" checked>
+        <input type="radio" name="filter" id="f-italian">
+        <input type="radio" name="filter" id="f-chinese">
+        <input type="radio" name="filter" id="f-desi">
+        <input type="radio" name="filter" id="f-french"> -->
+
+        <div class="tabs">
+            <label id="all"><span class="dot"></span>All</label>
+            <label id="italian"><span class="dot"></span>Italian</label>
+            <label id="chinese"><span class="dot"></span>Chinese</label>
+            <label id="desi"><span class="dot"></span>Desi</label>
+            <label id="french"><span class="dot"></span>French</label>
+        </div>
+        <input type="text" id="search" class="search-bar" placeholder="Search food...">
+        <div class="grid">
+
+
+            <div class="card italian">
+                <div class="thumb"><span class="tag">Italian</span><img src="./imgs/it1.webp" alt="Italian dish photo">
+                </div>
+                <div class="body">
+                    <h3>Truffle Tagliatelle</h3>
+                    <p>Fresh egg pasta tossed in brown butter, shaved black truffle and aged parmesan.</p>
+                    <div class="price">Rs. 1,450 <span>Serves 1</span></div>
+                </div>
+            </div>
+
+            <div class="card italian">
+                <div class="thumb"><span class="tag">Italian</span><img src="./imgs/it2.jpg" alt="Italian dish photo">
+                </div>
+                <div class="body">
+                    <h3>Margherita pizza</h3>
+                    <p>Wood-fired thin crust, san marzano tomato, fior di latte, torn basil.</p>
+                    <div class="price">Rs. 1,200 <span>10"</span></div>
+                </div>
+            </div>
+
+            <div class="card italian">
+                <div class="thumb"><span class="tag">Italian</span><img src="./imgs/it3.jpg" alt="Italian dish photo">
+                </div>
+                <div class="body">
+                    <h3>Italian soup</h3>
+                    <p>Slow-stirred arborio rice, wild mushroom, white wine and grana padano.</p>
+                    <div class="price">Rs. 1,300 <span>Bowl</span></div>
+                </div>
+            </div>
+
+            <div class="card italian">
+                <div class="thumb"><span class="tag">Italian</span><img src="./imgs/it4.jfif" alt="Italian dish photo">
+                </div>
+                <div class="body">
+                    <h3>Osso Buco</h3>
+                    <p>Braised veal shank, saffron risotto, gremolata, rich pan jus.</p>
+                    <div class="price">Rs. 1,900 <span>Chef's plate</span></div>
+                </div>
+            </div>
+
+            <div class="card italian">
+                <div class="thumb"><span class="tag">Italian</span><img src="./imgs/it5.jfif" alt="Italian dish photo">
+                </div>
+                <div class="body">
+                    <h3>Tiramisu</h3>
+                    <p>Espresso-soaked savoiardi, mascarpone cream, cocoa dust.</p>
+                    <div class="price">Rs. 700 <span>Single</span></div>
+                </div>
+            </div>
+
+
+            <div class="card chinese">
+                <div class="thumb"><span class="tag">Chinese</span><img src="./imgs/ch1.jfif" alt="Chinese dish photo">
+                </div>
+                <div class="body">
+                    <h3>Chili Garlic Wontons</h3>
+                    <p>Pork and prawn dumplings in a chili oil broth with scallion and crushed peanut.</p>
+                    <div class="price">Rs. 980 <span>6 pcs</span></div>
+                </div>
+            </div>
+
+            <div class="card chinese">
+                <div class="thumb"><span class="tag">Chinese</span><img src="./imgs/ch2.jfif" alt="Chinese dish photo">
+                </div>
+                <div class="body">
+                    <h3>Kung Pao Chicken</h3>
+                    <p>Wok-seared chicken, roasted peanuts, dried chili and sichuan pepper glaze.</p>
+                    <div class="price">Rs. 1,350 <span>Wok bowl</span></div>
+                </div>
+            </div>
+
+            <div class="card chinese">
+                <div class="thumb"><span class="tag">Chinese</span><img src="./imgs/ch3.jfif" alt="Chinese dish photo">
+                </div>
+                <div class="body">
+                    <h3>Peking Duck</h3>
+                    <p>Lacquered duck, thin pancakes, hoisin, cucumber and spring onion.</p>
+                    <div class="price">Rs. 2,200 <span>Half duck</span></div>
+                </div>
+            </div>
+
+
+            <div class="card chinese">
+                <div class="thumb"><span class="tag">Chinese</span><img src="./imgs/ch4.jfif" alt="Chinese dish photo">
+                </div>
+                <div class="body">
+                    <h3>Dan Noodles</h3>
+                    <p>Hand-pulled noodles, sesame chili sauce, preserved vegetable, ground pork.</p>
+                    <div class="price">Rs. 1,100 <span>Bowl</span></div>
+                </div>
+            </div>
+
+
+
+            <div class="card desi">
+                <div class="thumb"><span class="tag">Desi</span><img src="./imgs/d1.webp" alt="Desi dish photo"></div>
+                <div class="body">
+                    <h3>Nihari</h3>
+                    <p>Slow-cooked shank in a dark, marrow-rich gravy, finished with ginger and green chili.</p>
+                    <div class="price">Rs. 1,100 <span>With naan</span></div>
+                </div>
+            </div>
+
+            <div class="card desi">
+                <div class="thumb"><span class="tag">Desi</span><img src="./imgs/d2.jfif" alt="Desi dish photo"></div>
+                <div class="body">
+                    <h3>Chapli Kebab</h3>
+                    <p>Hand-pounded beef patties, coriander seed and pomegranate, seared on a tawa.</p>
+                    <div class="price">Rs. 890 <span>4 pcs</span></div>
+                </div>
+            </div>
+
+            <div class="card desi">
+                <div class="thumb"><span class="tag">Desi</span><img src="./imgs/d3.jfif" alt="Desi dish photo"></div>
+                <div class="body">
+                    <h3>Chicken Karahi</h3>
+                    <p>Wok-tossed chicken, tomato, green chili and ginger, finished with fresh coriander.</p>
+                    <div class="price">Rs. 1,600 <span>Half kg</span></div>
+                </div>
+            </div>
+
+            <div class="card desi">
+                <div class="thumb"><span class="tag">Desi</span><img src="./imgs/d4.jfif" alt="Desi dish photo"></div>
+                <div class="body">
+                    <h3>Seekh Kebab</h3>
+                    <p>Charcoal-grilled minced beef skewers, garam masala, mint chutney on the side.</p>
+                    <div class="price">Rs. 750 <span>4 pcs</span></div>
+                </div>
+            </div>
+
+            <div class="card desi">
+                <div class="thumb"><span class="tag">Desi</span><img src="./imgs/d5.jfif" alt="Desi dish photo"></div>
+                <div class="body">
+                    <h3>Beef Biryani</h3>
+                    <p>Layered basmati, slow-cooked beef, fried onion, saffron, served with raita.</p>
+                    <div class="price">Rs. 950 <span>Plate</span></div>
+                </div>
+            </div>
+
+
+            <div class="card french">
+                <div class="thumb"><span class="tag">French</span><img src="./imgs/f1.jfif" alt="French dish photo"></div>
+                <div class="body">
+                    <h3>Coq au Vin</h3>
+                    <p>Braised chicken in red wine, pearl onion, mushroom and smoked lardon.</p>
+                    <div class="price">Rs. 1,600 <span>Half bird</span></div>
+                </div>
+            </div>
+
+            <div class="card french">
+                <div class="thumb"><span class="tag">French</span><img src="./imgs/f2.jfif" alt="French dish photo"></div>
+                <div class="body">
+                    <h3>Crème Brûlée</h3>
+                    <p>Vanilla bean custard, torched sugar crust, sea salt flake.</p>
+                    <div class="price">Rs. 650 <span>Single</span></div>
+                </div>
+            </div>
+
+            <div class="card french">
+                <div class="thumb"><span class="tag">French</span><img src="./imgs/f3.jfif" alt="French dish photo"></div>
+                <div class="body">
+                    <h3>Ratatouille</h3>
+                    <p>Layered eggplant, zucchini and tomato, roasted herb and olive oil.</p>
+                    <div class="price">Rs. 950 <span>Vegetarian</span></div>
+                </div>
+            </div>
+
+            <div class="card french">
+                <div class="thumb"><span class="tag">French</span><img src="./imgs/f4.jfif" alt="French dish photo"></div>
+                <div class="body">
+                    <h3>French Onion Soup</h3>
+                    <p>Deep-caramelized onion broth, toasted baguette, melted gruyère crust.</p>
+                    <div class="price">Rs. 800 <span>Bowl</span></div>
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+    <script src="food.js"></script>
+</body>
+
+</html>
